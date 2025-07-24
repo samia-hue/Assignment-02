@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: "Noto Serif", serif;
+    box-sizing: border-box;
+    gap: 0;
+}
+body{
+    overflow-x:;
+    display: flex;
+    flex-direction: column;
 }
 /*text color*/
 .text-light-gray{
@@ -12,20 +19,35 @@
 .text-orange{
     color: #E95A08;
 }
+.text-black{
+
+     font-family: "Inter", sans-serif;
+}
 .bg-color{
     background-color: rgb(247, 247, 253);
 }
 .width{
     width: 1440px;
 }
+.btn{
+    background-color: #E95A08;
+    color: white;
+    border:none ;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+}
+.font-style{
+    font-weight:bold;
+}
 
   
 
 
 /*header styles*/
-.header{
+.banner{
     width: 1440px;
-    height: 71px;
+    height: auto;
     margin-top: 30px;
     margin-right: 150px;
     margin-left: 150px;
@@ -37,7 +59,7 @@
 
 
 
-.head-item{
+.banner-item{
     display: flex;
     justify-content: space-between;
    
@@ -83,26 +105,26 @@
 }
 /*header section-02*/
 
-.section-body{
+.banner-body{
     margin-top: 110px;
     margin-right: 150px;
     background-color: white;
     height: 461px;
     
 }
-.head-title{
+.banner-title{
     display: block;
     margin-top: 200px;
 
     
 }
-.head-sub-title{
+.banner-sub-title{
     
     font-weight: bold;
     font-size: 65px;
 
 }
-.header-part{
+.banner-part{
     display: flex;
 }
 .section-02-img{
@@ -117,4 +139,81 @@
     display: block;
     margin-top: 106px;
     margin-right: 0px;
+}
+
+
+/*main part*/
+.main-title{
+    text-align: center;
+    margin-top: 120PX;
+}
+
+
+
+
+/* section part-1  flower-container*/
+.container-title{
+    text-align: center;
+    justify-items: center;
+     
+    
+    
+}
+
+.container{
+    width: 270px;
+    margin-top: 49px;
+    border: 0px ;
+    margin-right: 0px;
+    
+   
+    
+}
+.parent-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    width: 1440px;
+    
+    margin-left: 150px;
+    box-sizing: border-box;
+    padding-right: 70px;
+    
+
+}
+/* section-part-2*/
+
+
+.section-part-2{
+    display: flex;
+    margin-left: 150PX;
+    margin-right: 150PX;
+    margin-top: 210px;
+    width: 1440px;
+}
+
+.flower-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.flower-store-img img{
+    height: 560px;
+    width: 597px;
+}
+.trusted-badge img{
+    width:286 px;
+    height: 286px;
+    margin-top: -40%;
+    margin-left: -50%;
+}
+
+.flower-store-description{
+    margin-top: 38px;
+    margin-bottom: px;
+    height: 521px;
+    width: 450px;
+    justify-items: center;
+    gap: 0px;
+
+    
 }
