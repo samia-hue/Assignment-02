@@ -7,7 +7,7 @@
     gap: 0;
 }
 body{
-    overflow-x:;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -22,6 +22,13 @@ body{
 .text-black{
 
      font-family: "Inter", sans-serif;
+}
+.text-color-black{
+    color: black;
+}
+
+.color-white{
+    color: white;
 }
 .bg-color{
     background-color: rgb(247, 247, 253);
@@ -39,6 +46,9 @@ body{
 }
 .font-style{
     font-weight:bold;
+}
+.padding{
+    padding-left:15.5px ;
 }
 
   
@@ -192,7 +202,7 @@ body{
 }
 
 .flower-title{
-    font-size: 48px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -216,4 +226,102 @@ body{
     gap: 0px;
 
     
+}
+
+/*Latest Deals styles section*/
+.deal-title{
+    text-align: center;
+    margin-top: 104px;
+    width: 100%;
+    
+}
+.text-of-plant a {
+    color: rgb(251, 251, 251);
+    justify-content: center;
+    margin-left: 50px;
+}
+.text-of-plant {
+    color: white;
+    font-weight: bold;
+}
+
+.deals-images{
+    position: relative;
+    
+}
+.text-of-plant{
+      position: absolute;
+      
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+
+}
+.big-img{
+    margin-left: 200px;
+    width: 753px;
+    gap: auto;
+    
+}
+.big-img img{
+    border-radius: 22px;
+}
+.blooms-ana img{
+    margin-bottom: 20px;
+    border-radius: 14px;
+
+    
+}
+
+.deals-parent-div{
+    display: flex;
+    width: 1140px;
+    justify-items: space-between;
+    margin-left: 150px;
+    margin-top: 120px;
+    
+}
+
+/*join section*/
+.section-part-4{
+    margin-top: 100px;
+}
+.img-width img{
+    width: 1600px;
+}
+.join-section-title{
+    font-size: 58px;
+    font-weight: bold;
+    width: 700px;
+    height:90px ;
+    text-align: center;
+    margin-left: 100px;
+}
+.input-section{
+    margin-top: ;
+}
+.join-box{
+    position: relative;
+}
+.input-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -200%);
+}
+.input-mail-section input{
+    width: 830px;
+    height: 50px;
+    margin-top: 20px;
+    justify-items: center;
+
+}
+.input-mail-section{
+    display: flex;
+}
+.input-mail-section button{
+    margin-top: 20px;
+    gap: 0px;
+    width: 186px;
+    height: 50px;
 }
