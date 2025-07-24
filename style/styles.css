@@ -7,7 +7,7 @@
     gap: 0;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hi;
     display: flex;
     flex-direction: column;
 }
@@ -81,7 +81,7 @@ body{
     
 
 }
-.logo-1{
+.logo-1 img{
     width: 135px;
     height: 82px;
 }
@@ -248,10 +248,43 @@ body{
 .deals-images{
     position: relative;
     
+    
+    
+    
 }
+.deals-images img{
+    object-fit: cover;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    width: 367px;
+    height: 201px;
+    background-color: rgba(0 , 0, 0, 0.6);
+    z-index: 1;
+}
+.overlay-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 22px;
+    width: 753px;
+    height: 425px;
+    background-color: rgba(0 , 0, 0, 0.6);
+    z-index: 1;
+}
+.text{
+    position:absolute;
+    color: white;
+    z-index: 2;
+}
+
 .text-of-plant{
+   
       position: absolute;
-      
       top: 50%;
       left: 50%;
       transform: translate(-50% , -50%);
@@ -261,6 +294,7 @@ body{
     margin-left: 200px;
     width: 753px;
     gap: auto;
+    
     
 }
 .big-img img{
@@ -297,9 +331,7 @@ body{
     text-align: center;
     margin-left: 100px;
 }
-.input-section{
-    margin-top: ;
-}
+
 .join-box{
     position: relative;
 }
@@ -324,4 +356,15 @@ body{
     gap: 0px;
     width: 186px;
     height: 50px;
+}
+
+/*footer section*/
+footer{
+    width: 100%;
+}
+.footer-description{
+    width: 359px;
+    height: 179px;
+    margin-left: 160px;
+    margin-top: 50px;
 }
