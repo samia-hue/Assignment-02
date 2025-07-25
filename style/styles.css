@@ -1,5 +1,6 @@
 /*shared styles*/
 *{
+    
     margin: 0;
     padding: 0;
     font-family: "Noto Serif", serif;
@@ -7,7 +8,7 @@
     gap: 0;
 }
 body{
-    overflow-x: hi;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -34,7 +35,7 @@ body{
     background-color: rgb(247, 247, 253);
 }
 .width{
-    width: 1440px;
+    width:1140px;
 }
 .btn{
     background-color: #E95A08;
@@ -56,10 +57,10 @@ body{
 
 /*header styles*/
 .banner{
-    width: 1440px;
+    width: 1450px;
     height: auto;
     margin-top: 30px;
-    margin-right: 150px;
+    margin-right: 145px;
     margin-left: 150px;
     
     
@@ -77,10 +78,12 @@ body{
 
     align-items: center;
     margin-right: 150px;
-    height: 71px;
+    height: 72px;
+    
     
 
 }
+/*navbar*/
 .logo-1 img{
     width: 135px;
     height: 82px;
@@ -89,7 +92,8 @@ body{
 .navbar ul{
     list-style-type: none;
     display: flex;
-    gap: 48px;
+    gap: 38px;
+    
     
 }
 
@@ -106,10 +110,10 @@ body{
 }
 .navbar{
     justify-content: end;
-    height: 60px;
+    height: 62px;
     display: flex;
     margin-top: 55px;
-    font-size: 14px;
+    font-size: 1rem;
     
     
 }
@@ -121,6 +125,7 @@ body{
     background-color: white;
     height: 461px;
     
+    
 }
 .banner-title{
     display: block;
@@ -131,7 +136,7 @@ body{
 .banner-sub-title{
     
     font-weight: bold;
-    font-size: 65px;
+    font-size: 4.0625rem;
 
 }
 .banner-part{
@@ -156,6 +161,7 @@ body{
 .main-title{
     text-align: center;
     margin-top: 120PX;
+    margin-left: 150px;
 }
 
 
@@ -168,6 +174,9 @@ body{
      
     
     
+}
+.our-plants-title{
+    text-align: center;
 }
 
 .container{
@@ -202,7 +211,7 @@ body{
 }
 
 .flower-title{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
 }
 
@@ -217,13 +226,15 @@ body{
     margin-left: -50%;
 }
 
+
 .flower-store-description{
     margin-top: 38px;
-    margin-bottom: px;
+    margin-right: 150px;
     height: 521px;
     width: 450px;
     justify-items: center;
     gap: 0px;
+    
 
     
 }
@@ -232,7 +243,9 @@ body{
 .deal-title{
     text-align: center;
     margin-top: 104px;
-    width: 100%;
+    width: 1140px;
+    margin-left: 170px;
+    
     
 }
 .text-of-plant a {
@@ -271,7 +284,7 @@ body{
     top: 0;
     left: 0;
     border-radius: 22px;
-    width: 753px;
+    width: 950px;
     height: 425px;
     background-color: rgba(0 , 0, 0, 0.6);
     z-index: 1;
@@ -291,7 +304,7 @@ body{
 
 }
 .big-img{
-    margin-left: 200px;
+    margin-left: 20px;
     width: 753px;
     gap: auto;
     
@@ -299,6 +312,8 @@ body{
 }
 .big-img img{
     border-radius: 22px;
+    width: 950px;
+    height:425px ;
 }
 .blooms-ana img{
     margin-bottom: 20px;
@@ -324,12 +339,12 @@ body{
     width: 1600px;
 }
 .join-section-title{
-    font-size: 58px;
+    font-size: 3.625rem;
     font-weight: bold;
     width: 700px;
     height:90px ;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
 .join-box{
@@ -346,10 +361,12 @@ body{
     height: 50px;
     margin-top: 20px;
     justify-items: center;
+    margin-left: 200px;
 
 }
 .input-mail-section{
     display: flex;
+    margin-left: 150px;
 }
 .input-mail-section button{
     margin-top: 20px;
@@ -365,6 +382,320 @@ footer{
 .footer-description{
     width: 359px;
     height: 179px;
-    margin-left: 160px;
     margin-top: 50px;
+    margin-bottom:50px ;
+}
+.footer{
+    display: flex;
+    height: 248px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.footer-list-item{
+    margin-top: 50px;
+    margin-left:110px ;
+    
+    
+}
+.footer-list-item ul{
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 10px;
+  
+    
+   
+}
+.list{
+    height: 100%;
+}
+.item{
+    flex: 1;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.footer-icons{
+    display: flex;
+    width: 216px;
+    height: 36px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.footer-icons img{
+    padding: 5px;
+}
+
+/*responsive part*/
+
+
+@media (max-width: 576px) {
+    body{
+        width: 100%;
+    
+    }
+    main{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+  /* Banner Adjustments */
+  .banner {
+    margin: 0;
+    width: 576px;
+  }
+
+  .banner-item {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .logo-1 img {
+    width: 100px;
+    height: auto;
+  }
+
+  .navbar {
+    margin-top: 10px;
+    font-size: 1rem;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .item{
+    display: none;
+  }
+
+  /* Banner Body */
+  .banner-body {
+    margin: 0;
+    height: auto;
+    padding: 10px;
+  }
+
+  .banner-part {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-title{
+    
+    margin-bottom: 20px;
+  }
+
+  .banner-sub-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .banner-title p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .section-02-img {
+    margin: 0;
+  }
+
+  .section-02-img img {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Section: Our Plants */
+  .our-plants-title{
+    text-align: center;
+  }
+  .parent-container {
+    grid-template-columns: repeat(2 ,1fr);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+
+  }
+
+  .container {
+    width: 100%;
+    margin: 10px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  /* Section: Flower & Plants Lover */
+
+  .main-title{
+    text-align: center;
+    margin-left: 110px;
+    width: 576px;
+    
+  }
+  .our-plants-title{
+    text-align: center;
+    width: 576px;
+  }
+  .section-part-2 {
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .flower-store-img img {
+    width: 576px;
+    height: auto;
+  }
+  .trusted-badge img{
+    display: none;
+  }
+
+  .flower-store-description {
+    width: 100%;
+    text-align: center;
+    margin-left: 60px;
+    
+  }
+
+  .flower-title {
+    font-size: 1.5rem;
+  }
+
+  /* Latest Deals Section */
+  
+  .deal-title{
+    width: 100%;
+    text-align: center;
+
+    
+    
+  }
+  .deals-parent-div {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .deals-images,
+  .big-img {
+    width:100%;
+  }
+
+  .deals-images img,
+  .big-img img {
+    width: 576px;;
+    height: auto;
+  }
+
+  .overlay{
+    
+    width: 576px !important;
+    height: 315px !important;
+  }
+.big-img img{
+    width: 576px;
+    margin-left: -17px;
+    
+}
+
+  .overlay-2 {
+    margin-left: -17px;
+    width: 576px !important;
+    height: 324px !important;
+  }
+
+  .text-of-plant {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+  }
+
+  /* Join Section */
+  .img-width img {
+    width: 576px;
+  }
+
+  .input-box {
+    top: 35%;
+    left: 50%;
+    transform: translate(-100%, -150%);
+    width:px;
+  }
+
+  .input-mail-section {
+    flex-direction: row;
+    gap: 0px;
+    width: 100%;
+    justify-items: center;
+    margin-left: 50px;
+
+  }
+ 
+  .input-mail-section input{
+    width: 100%;
+    margin-left: 200px;
+    
+    
+  }
+  .join-box{
+    margin-left: 200px;
+  }
+  .input-mail-section button{
+    width: 100%;
+    margin-left: 150px;
+  }
+  .input-mail-section input,
+  .input-mail-section button {
+
+    margin-top: -30;
+    width: 90%;
+    gap: 0;
+  }
+  
+  .join-section-title {
+    font-size: 18px;
+    width: auto;
+    margin-left: 0px;
+    
+  }
+  .input-box p{
+    margin-left: 150px;
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .footer-description,
+  .footer-list-item,
+  .footer-icons {
+    margin-left: 50px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+
+  .footer-icons img {
+    padding: 8px;
+  }
 }
