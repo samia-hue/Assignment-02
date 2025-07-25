@@ -486,7 +486,7 @@ footer{
   }
 
   .banner-part {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
   .banner-title{
